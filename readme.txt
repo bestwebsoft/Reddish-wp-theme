@@ -3,9 +3,9 @@ Author: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
 Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
 Tags: two-column, fixed-width, right-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready, pagination, sticky-post, image-slider, white, red, blue, gray.
-Requires at least: 3.4
-Tested up to: 3.7.1
-Stable tag: 1.1
+Requires at least: 3.7
+Tested up to: 3.9
+Stable tag: 1.2
 Reddish WordPress theme, Copyright (C) 2013 BestWebSoft
 Reddish WordPress theme is licensed under the GPL v3
 License: GNU General Public License v3
@@ -148,6 +148,10 @@ Change: Replaced code for EASYFADER slider with our own code located in 'script.
 Change: Replaced all 'is_home' conditional tags in theme files with 'is_front_page' conditional tags.
 Change: Changed 'reddish_scripts_styles' function to enqueue scripts and styles only on the front end.
 
+= 1.2 - 06.05.2014 =
+* Update: We updated all functionality for wordpress 3.9.
+* Bugfix: We fixed a bug for displaying custom header without header text in IE8.
+
 == Upgrade Notice ==
 
 = 1.0.1 =
@@ -179,3 +183,6 @@ Changed code for displaying 'breadcrumbs'.
 
 = 1.1 =
 Replaced code for EASYFADER slider with our own code located in 'script.js' file. Replaced all 'is_home' conditional tags in theme files with 'is_front_page' conditional tags. Changed 'reddish_scripts_styles' function to enqueue scripts and styles only on the front end.
+
+= 1.2 =
+We updated all functionality for wordpress 3.9. We fixed a bug for displaying custom header without header text in IE8.

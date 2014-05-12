@@ -397,7 +397,7 @@ function reddish_admin_header_image() { ?>
 	$path = get_header_image();
 		$style = '';
 		if ( ! display_header_text() ) {
-				$style = ' style="display:none;"';
+				$style = ' style="display:none;';
 			} else {
 				$style = ' style="color:#' . get_header_textcolor() . ';';
 			} ?>
