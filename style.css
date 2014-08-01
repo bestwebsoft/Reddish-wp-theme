@@ -3,8 +3,8 @@ Theme Name: Reddish
 Author: BestWebSoft team
 Theme URI: http://bestwebsoft.com/theme/reddish
 Author URI: https://github.com/bestwebsoft
-Description: Reddish is a cross-browser compatible, two-columns, fixed-width theme featuring animated image slider, threaded comments, pagination for posts, customizable menus, widgets, background and header image.
-Version: 1.2
+Description: Is your website designed for active and inquisitive people? Do you feel your unique content requires an original and creative design? Are you in search of a theme that would be a harmonious extension to your thoughts? If you can answer in the affirmative at least to one of these questions, we guarantee that Reddish will be an excellent theme for you. Stylish, elaborate and user-friendly, it will go with your content like bread with butter. Its eyecatching design and a whole range of customization options provide you with unlimited possibility to make your posts truly unforgettable. What is more, Reddish is perfectly compatible with each BestWebSoft plugin. Therfore, to make your website truly unique, we suggest you install Gallery plugin (http://wordpress.org/plugins/gallery-plugin/), as well as Quotes and Tips plugin (http://wordpress.org/plugins/quotes-and-tips/). This way, by installing one or both of these you get a killer combination - extended functionality and a guarantee that no compliance problems will ever occur. See how your website may look with this theme: http://bestwebsoft.com/wordpress_demo_theme/reddish/
+Version: 1.3
 Reddish WordPress theme, Copyright (C) 2013 BestWebSoft
 Reddish WordPress theme is licensed under the GPL v3
 License: GNU General Public License v3
@@ -794,7 +794,8 @@ padding-bottom:15px;
 .text_title {
 	color: #444444;
 	line-height: 27px;
-	word-break: break-all; /* break very long words */
+	word-wrap: break-word;
+	text-align: justify; /* break very long words */
 }
 
 .entry_content .text_title {
@@ -897,7 +898,8 @@ padding-bottom:15px;
 .comment-content,
 .entry-summary,
 .widget-area .textwidget { /* to break very long words */
-	word-break: break-all;
+	word-wrap: break-word;
+	text-align: justify;
 }
 .comment-content {
 	padding: 0 9px 6px 11px;
@@ -1057,7 +1059,7 @@ select {
 	z-index: 998;
 }
 
-.sel_styled_cont {
+.rddsh_sel_styled_cont {
 	position: relative;
 	width: 219px;
 	height: 37px;
@@ -1087,14 +1089,13 @@ select {
 	z-index: 998;
 }
 
-.sel_styled_cont_open {
+.rddsh_sel_styled_cont_open {
 	display: none;
 	position: absolute;
 	top: 45px;
 	left: -1px;
 	width: 100%;
 	margin: 1px 0 10px;
-	padding: 5px 0 9px 0;
 	border: 1px solid #dddddd;
 	background: #fff;
 	letter-spacing: -1px;
@@ -1104,7 +1105,7 @@ select {
 .sel_styled_opt,
 .sel_styled_opt_dis {
 	height: 25px;
-	padding: 3px 0 2px 30px;
+	padding: 10px 0 2px 30px;
 	color: #555555;
 	cursor: pointer;
 }
@@ -1290,7 +1291,7 @@ input[type="reset"]:hover {
 .widget-area #s,
 .widget-area .che_styled_cont,
 .widget-area .rad_styled_cont,
-.widget-area .sel_styled_cont,
+.widget-area .rddsh_sel_styled_cont,
 .widget-area .upload_file,
 .widget-area blockquote,
 .widget-area input[type="text"],
@@ -1972,7 +1973,8 @@ video {
 	text-align: center;
 	letter-spacing: 0;
 	z-index: 10;
-	word-break: break-all; /* to break very long words */
+	word-wrap: break-word;
+	text-align: justify; /* to break very long words */
 }
 
 .slider-no-image-text {

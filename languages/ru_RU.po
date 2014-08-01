@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Reddish\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-04 10:19+0300\n"
-"PO-Revision-Date: 2013-11-04 17:50+0300\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2014-07-30 10:55+0300\n"
+"Last-Translator: BestWebSoft <info@bestwebsoft.com>\n"
 "Language-Team: \n"
 "Language: English\n"
 "MIME-Version: 1.0\n"
@@ -488,61 +488,88 @@ msgstr "Поиск по сайту..."
 
 #~ msgid "Enter search keyword"
 #~ msgstr "Введите поисковый запрос"
+
 #~ msgid "You have not uploaded the featured image"
 #~ msgstr "Миниатюра для слайда не загружена"
+
 #~ msgid "Archive for:&thinsp;"
 #~ msgstr "Архив метки:&thinsp;"
+
 #~ msgid "Archive for: %s"
 #~ msgstr "Архив за: %s"
+
 #~ msgid "Archives for: %s"
 #~ msgstr "Архив за: %s"
+
 #~ msgid "Archive for category:&thinsp; %s"
 #~ msgstr "Архив категории:&thinsp;%s"
+
 #~ msgid "Powered by WordPress and <span class=\"color\">Reddish </span>Theme"
 #~ msgstr "Работает на WordPress и теме <span class=\"color\">Reddish </span>"
+
 #~ msgid "Reddish"
 #~ msgstr "Wordpress"
+
 #~ msgid "Powered on"
 #~ msgstr "Работает на"
+
 #~ msgid " Reblog"
 #~ msgstr " Реблог"
 #~ msgctxt "post type general name"
+
 #~ msgid "Slides"
 #~ msgstr "Слайды"
 #~ msgctxt "post type singular name"
+
 #~ msgid "Slide"
 #~ msgstr "Слайд"
 #~ msgctxt "slide"
+
 #~ msgid "Add New"
 #~ msgstr "Добавить новый слайд"
+
 #~ msgid "Add New Slide"
 #~ msgstr "Добавить новый слайд"
+
 #~ msgid "Edit Slide"
 #~ msgstr "Редактировать слайд"
+
 #~ msgid "New Slide"
 #~ msgstr "Новый слайд"
+
 #~ msgid "View Slide"
 #~ msgstr "Посмотреть слайд"
+
 #~ msgid "Slide"
 #~ msgstr "Слайд"
+
 #~ msgid "Slides"
 #~ msgstr "Слайды"
+
 #~ msgid "Do not display image slider with Posts that are checked"
 #~ msgstr "Не отображать слайдер с записями, в которых отмечен флажок."
+
 #~ msgid "Display image slider only with Posts that are checked"
 #~ msgstr "Отображать слайдер с записями, в которых отмечен флажок"
+
 #~ msgid "and"
 #~ msgstr "и"
+
 #~ msgid "Technologies"
 #~ msgstr "Технологии"
+
 #~ msgid "View all posts in %s"
 #~ msgstr "Посмотреть все записи в %s"
+
 #~ msgid "Sorry, nothing found."
 #~ msgstr "К сожалению, ничего не найдено."
+
 #~ msgid "Image"
 #~ msgstr "Изображение"
+
 #~ msgid "Download high resolution image"
 #~ msgstr "Загрузить полноразмерное изображение"
+
 #~ msgid ""
 #~ "You can select checkboxes below to specify where you want to display "
 #~ "Image Slider."
@@ -552,49 +579,65 @@ msgstr "Поиск по сайту..."
 #~ "слайдер с этой Записью\", который по умолчанию не выбран. Ниже вы можете "
 #~ "задать настройки для отображения слайдера в зависимости от того, выбран "
 #~ "этот флажок или нет."
+
 #~ msgid "RECENT POSTS"
 #~ msgstr "НЕДАВНИЕ ЗАПИСИ"
+
 #~ msgid "RECENT COMMENTS"
 #~ msgstr "НЕДАВНИЕ КОММЕНТАРИИ"
+
 #~ msgid "ARCHIVES"
 #~ msgstr "АРХИВЫ"
+
 #~ msgid "CATEGORIES"
 #~ msgstr "РУБРИКИ"
+
 #~ msgid "Greenfield"
 #~ msgstr "AБВГДЕЁЖЗИКЛМНОПРСТУФХЦЧШЩЬЪЭЮЯабвгдеёжзиклмнопрстуфхцчшщьъэюя"
 #~ msgctxt "category"
+
 #~ msgid "in"
 #~ msgstr "в рубрике"
 
 #, fuzzy
 #~ msgctxt "in"
+
 #~ msgid "in"
 #~ msgstr "в рубрике"
 
 #, fuzzy
 #~ msgid "an"
+
 #~ msgid_plural "in"
 #~ msgstr[0] "и"
 #~ msgstr[1] "и"
 #~ msgstr[2] "и"
 #~ msgstr[3] "и"
+
 #~ msgid "% Replies"
 #~ msgstr "% Комментариев"
+
 #~ msgid "Tags:"
 #~ msgstr "Теги: "
 #~ msgctxt "author"
+
 #~ msgid "by "
 #~ msgstr "Автор: "
+
 #~ msgid "Author Archives: %s"
 #~ msgstr "Архив автора: %s"
+
 #~ msgid "Archive for&thinsp;&lsquo; "
 #~ msgstr "Архив метки&thinsp;&lsquo; "
+
 #~ msgid "Archive for &lsquo; "
 #~ msgstr "Архив метки &lsquo; "
 
 #, fuzzy
 #~ msgctxt "greenfield"
+
 #~ msgid "Slides"
+
 #~ msgid_plural "post type general name"
 #~ msgstr[0] "Новый слайд"
 #~ msgstr[1] "Новый слайд"
@@ -602,31 +645,41 @@ msgstr "Поиск по сайту..."
 
 #, fuzzy
 #~ msgctxt "greenfield"
+
 #~ msgid "Slide"
+
 #~ msgid_plural "post type singular name"
 #~ msgstr[0] "Новый слайд"
 #~ msgstr[1] "Новый слайд"
 #~ msgstr[2] "Новый слайд"
+
 #~ msgid "This is somewhat embarrassing, isn&rsquo;t it?"
 #~ msgstr "Страница не найдена."
+
 #~ msgid ""
 #~ "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 #~ "searching, or one of the links below, can help."
 #~ msgstr ""
 #~ "Запрошенную информацию найти не удалось. Вы можете воспользоваться "
 #~ "поиском по сайту или перейти на указанные ниже страницы.  "
+
 #~ msgid "Overview"
 #~ msgstr "Обзор"
+
 #~ msgid "Content on left"
 #~ msgstr "Контент слева"
+
 #~ msgid "Content on right"
 #~ msgstr "Контент справа"
+
 #~ msgid "One-column, no sidebar"
 #~ msgstr "Одна колонка, без сайдбара"
+
 #~ msgid ""
 #~ "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
 #~ msgstr ""
 #~ "Готовы опубликовать ваш первый пост? <a href=\"%s\">Get started here</a>."
+
 #~ msgid ""
 #~ "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span "
 #~ "class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</"
@@ -639,4 +692,3 @@ msgstr "Поиск по сайту..."
 #~ "time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s "
 #~ "&times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel="
 #~ "\"gallery\">%8$s</a>."
-

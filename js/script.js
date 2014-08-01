@@ -4,33 +4,32 @@
 		/* Form elements */
 		/* Select */
 		$( 'select' ).addClass( 'sel_styled' );
-		$( '.sel_styled' ).wrap( '<div class="sel_styled_cont">' ).width( $( '.sel_styled_cont' ).width() );
-		$( '.sel_styled_cont' ).append( '<div class="sel_styled_cont_open"></div>' );
+		$( '.sel_styled' ).wrap( '<div class="rddsh_sel_styled_cont">' ).width( $( '.rddsh_sel_styled_cont' ).width() );
+		$( '.rddsh_sel_styled_cont' ).append( '<div class="rddsh_sel_styled_cont_open"></div>' );
 		$( '.sel_styled' ).children( 'option' ).each(function() {
 			if ( $( this ).attr( 'disabled' ) ) {
-				$( this ).parent().parent().children( '.sel_styled_cont_open' ).append( '<div class="sel_styled_opt_dis" data-value =' + $( this ).val() + ' >' + $( this ).text() + '</div>' );
+				$( this ).parent().parent().children( '.rddsh_sel_styled_cont_open' ).append( '<div class="sel_styled_opt_dis" data-value =' + $( this ).val() + ' >' + $( this ).text() + '</div>' );
 			} else {
-				$( this ).parent().parent().children( '.sel_styled_cont_open' ).append( '<div class="sel_styled_opt" data-value =' + $( this ).val() +  '>' + $( this ).text() + '</div>' );
+				$( this ).parent().parent().children( '.rddsh_sel_styled_cont_open' ).append( '<div class="sel_styled_opt" data-value =' + $( this ).val() +  '>' + $( this ).text() + '</div>' );
 			}
 		} );
-		$( '.sel_styled_cont' ).click(function() {
-			$( this ).toggleClass( 'open' ).children( '.sel_styled_cont_open' ).slideToggle();
+		$( '.rddsh_sel_styled_cont' ).click(function() {
+			$( this ).toggleClass( 'open' ).children( '.rddsh_sel_styled_cont_open' ).slideToggle();
 		} );
-		$( '.sel_styled_cont' ).children( '.sel_styled_cont_open' ).children( '.sel_styled_opt' ).click(function() {
+		$( '.rddsh_sel_styled_cont' ).children( '.rddsh_sel_styled_cont_open' ).children( '.sel_styled_opt' ).click(function() {
 			$( this ).parent().parent().children( '.sel_styled_text' ).text( $( this ).text() );
 			$( this ).parent().parent().children( '.sel_styled' ).val( $( this ).text() );
-			var value = $( this ).data( 'value' );
-				$( this ).parent().parent().children( '.sel_styled' ).children( 'option' ).each(function() {
-			 	 	if ($( this ).val() == value) {
-			 	 		$( this ).attr( "selected", "selected" )
-			 	 	}
-			 $( this ).parent().parent().children( '.sel_styled' ).trigger( 'change' );
-			 		 
-				} );
+			var elemIndex = $( this ).index();
+			$( this ).parent().parent().children( '.sel_styled' ).find( 'option' ).removeAttr( "selected" );
+			$( this ).parent().parent().children( '.sel_styled' ).find( 'option' ).eq( elemIndex ).attr( "selected", "selected" ).trigger( 'change' );
 		} );
 		
 		$( '.sel_styled' ).each(function() {
-			$( this ).parent().append( '<span class="sel_styled_text">' + $( this ).children( 'option:first' ).text() + '</span>' );
+			if ( $( this ).find( 'option[selected]' ).text() ) {
+				$( this ).parent().append( '<span class="sel_styled_text">' + $( this ).find( 'option[selected]' ).text() + '</span>' );
+			} else {
+				$( this ).parent().append( '<span class="sel_styled_text">' + $( this ).children( 'option:first' ).text() + '</span>' );
+			}
 		} );
 
 		/*Radio script*/
@@ -92,7 +91,8 @@
 			} );
 			$( 'select' ).each(function() {
 				$( this ).val('');
-				$( '.sel_styled_text' ).text('');
+				$( this ).children( 'option' ).removeAttr( 'selected' );
+				$( this ).next().next( 'span' ).text( $( this ).find( 'option:first' ).text() ); 
 			} );
 
 			$( 'input[type="radio"]' ).each(function() {
