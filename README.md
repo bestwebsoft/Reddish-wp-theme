@@ -5,12 +5,12 @@ Reddish is a neat and easy to use theme for your website or blog. Reddish is a c
 
 <img src="http://bestwebsoft.com/wp-content/uploads/2013/09/reddish-banner-wp.jpg" />
 
-<a href="http://bestwebsoft.com/products/reddish/#description" target=_blank>Description</a> | 
-<a href="http://bestwebsoft.com/products/reddish/#installation" target=_blank>Installation</a> | 
-<a href="http://bestwebsoft.com/products/reddish/#faq" target=_blank>FAQ</a> | 
-<a href="http://bestwebsoft.com/products/reddish/#screenshots" target=_blank>Screenshots</a> | 
-<a href="http://bestwebsoft.com/products/reddish/#changelog" target=_blank>Changelog</a> | 
-<a href="http://bestwebsoft.com/products/reddish/#download" target=_blank>Download</a>
+<a href="http://bestwebsoft.com/products/reddish/description" target=_blank>Description</a> | 
+<a href="http://bestwebsoft.com/products/reddish/installation" target=_blank>Installation</a> | 
+<a href="http://bestwebsoft.com/products/reddish/faq" target=_blank>FAQ</a> | 
+<a href="http://bestwebsoft.com/products/reddish/screenshots" target=_blank>Screenshots</a> | 
+<a href="http://bestwebsoft.com/products/reddish/changelog" target=_blank>Changelog</a> | 
+<a href="http://bestwebsoft.com/products/reddish/download" target=_blank>Download</a>
 
 Features
 -----------------------------
