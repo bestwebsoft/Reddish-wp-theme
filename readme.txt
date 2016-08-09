@@ -1,22 +1,22 @@
 ﻿=== Reddish ===
-Author: the BestWebSoft team
-Author URI: https://github.com/bestwebsoft
-Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
-Tags: two-column, fixed-width, right-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready, pagination, sticky-post, image-slider, white, red, blue, gray.
-Requires at least: 3.7
-Tested up to: 3.9.1
-Stable tag: 1.3
-Reddish WordPress theme, Copyright (C) 2013 BestWebSoft
-Reddish WordPress theme is licensed under the GPL v3
+Contributors: BestWebLayout, BestWebSoft
+Author URI: http://bestweblayout.com/
+Donate link: http://bestwebsoft.com/donate/
+Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+Requires at least: 4.2
+Tested up to: 4.5.3
+Stable tag: 1.4
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+Reddish WordPress Theme, Copyright 2016 BestWebLayout.com
+Theme Reddish is distributed under the terms of the GNU GPL
 
 Reddish is a neat and easy to use theme for your website.
 
 == Description ==
 
 Is your website designed for active and inquisitive people? Do you feel your unique content requires an original and creative design? Are you in search of a theme that would be a harmonious extension to your thoughts?
-If you can answer in the affirmative at least to one of these questions, we guarantee that Reddish will be an excellent theme for you. Stylish, elaborate and user-friendly, it will go with your content like bread with butter. Its eyecatching design and a whole range of customization options provide you with unlimited possibility to make your posts truly unforgettable. What is more, Reddish is perfectly compatible with each BestWebSoft plugin. Therfore, to make your website truly unique, we suggest you install Gallery plugin (http://wordpress.org/plugins/gallery-plugin/), as well as Quotes and Tips plugin (http://wordpress.org/plugins/quotes-and-tips/). This way, by installing one or both of these you get a killer combination - extended functionality and a guarantee that no compliance problems will ever occur. See how your website may look with this theme: http://bestwebsoft.com/wordpress_demo_theme/reddish/
+If you can answer in the affirmative at least to one of these questions, we guarantee that Reddish will be an excellent theme for you. Stylish, elaborate and user-friendly, it will go with your content like bread with butter. Its eyecatching design and a whole range of customization options provide you with unlimited possibility to make your posts truly unforgettable. What is more, Reddish is perfectly compatible with each BestWebSoft plugin. Therefore, to make your website truly unique, we suggest you install Gallery plugin (http://wordpress.org/plugins/gallery-plugin/), as well as Quotes and Tips plugin (http://wordpress.org/plugins/quotes-and-tips/). This way, by installing one or both of these you get a killer combination - extended functionality and a guarantee that no compliance problems will ever occur. See how your website may look with this theme: http://wp-demo-theme.bestweblayout.com/reddish/
 
 = Features =
 
@@ -81,7 +81,7 @@ If you can answer in the affirmative at least to one of these questions, we guar
 
 = How to display Sliding image gallery? =
 
-By default Sliding image gallery is not displayed on website pages. To display it, you need to select a checkbox 'Display this post(page) in Image slider ' for at least one Post or Page in Edit Post or Edit Page screens.
+By default Sliding image gallery is not displayed on website pages. To display it, you need to select a checkbox 'Check this post (page) for Image slider' for at least one Post or Page in Edit Post or Edit Page screens.
 
 = How Posts and Pages without Featured images display? =
 
@@ -115,84 +115,99 @@ Custom Header images should be 960px wide by 360px high otherwise they will be d
 
 == Changelog ==
 
-= 1.3 - 30.07.2014 =
-* Update: We updated all functionality for wordpress 3.9.1. 
+= V1.4 - 09.08.2016 =
+* Bugfix: Fixed mismatch coding standards.
+* Bugfix: Fixed theme markup and styles.
+* Bugfix: Slider functionality and settings was fixed.
+* New:    We added option into slider settings for display only Posts and Pages which have a featured image.
+* Update: Slider settings was moved to Customizer.
+* Update: Theme functionality was improved.
+* Update: Translation was updated.
+* Update: Screenshot was updated to size 1200x900.
+* Update: The theme has been tested for the compatibility with WordPress v.4.5.3.
+* Update: Theme was transferred to new WordPress account.
+
+= V1.3 - 30.07.2014 =
+* Update: We updated all functionality for WordPress 3.9.1.
 * Bugfix: We fixed bugs in script.js. 
 * Bugfix: We fixed bugs in style.css. 
 * New: We added reddich.pot file.
 
-= 1.2 - 06.05.2014 =
-* Update: We updated all functionality for wordpress 3.9.
+= V1.2 - 06.05.2014 =
+* Update: We updated all functionality for WordPress 3.9.
 * Bugfix: We fixed a bug for displaying custom header without header text in IE8.
 
-= 1.1 - 04.11.2013 =
+= V1.1 - 04.11.2013 =
 Change: Replaced code for EASYFADER slider with our own code located in 'script.js' file.
 Change: Replaced all 'is_home' conditional tags in theme files with 'is_front_page' conditional tags.
 Change: Changed 'reddish_scripts_styles' function to enqueue scripts and styles only on the front end.
 
-= 1.0.9 - 28.10.2013 =
+= V1.0.9 - 28.10.2013 =
 Bugfix: Changed code for displaying 'breadcrumbs'.
 
-= 1.0.8 - 25.10.2013 =
+= V1.0.8 - 25.10.2013 =
 Change: Changed version number of GPL license and specified proper links to it in 'readme.txt' and 'style.css' files.
 Change: Changed Author and Author URI in 'readme.txt' and 'style.css' files.
 Change: Put EASYFADER code in a separate 'slider.js' file.
 
-= 1.0.7 - 23.10.2013 =
+= V1.0.7 - 23.10.2013 =
 Bugfix: Changed code in a function displaying 'breadcrumbs'.
 
-= 1.0.6 - 22.10.2013 =
+= V1.0.6 - 22.10.2013 =
 Update: Added license information for some components used in the theme in 'readme.txt' file.
 
-= 1.0.5 - 14.10.2013 =
+= V1.0.5 - 14.10.2013 =
 Bugfix: Changed format of data displayed in the footer.
 
-= 1.0.4 - 11.10.2013 =
+= V1.0.4 - 11.10.2013 =
 Bugfix: Replaced get_stylesheet_uri() function for get_stylesheet_directory_uri() to enqueue style.css file. Added changes to style.css to correctly display very long titles in posts content. Changed format of data displayed in the footer.
 
-= 1.0.3 - 09.10.2013 =
+= V1.0.3 - 09.10.2013 =
 Bugfix: Put copyright notice for Reddish theme in readme.txt and style.css files. Added a proper prefix to all global variables used in the theme. changes to style.css to style tag cloud widget and to correctly display very long titles of posts and pages.
 
-= 1.0.2 - 02.10.2013 =
+= V1.0.2 - 02.10.2013 =
 Fixed bugs.
 
-= 1.0.1 - 25.09.2013 =
+= V1.0.1 - 25.09.2013 =
 We fixed the bugs.
 
 == Upgrade Notice ==
 
-= 1.3 =
-We updated all functionality for wordpress 3.9.1. We fixed bugs in script.js. We fixed bugs in style.css. We added reddich.pot file.
+= V1.4 =
+Fixed mismatch coding standards. Fixed theme markup and styles. Slider functionality and settings was fixed. We added option into slider settings for display only Posts and Pages which have a featured image. Slider settings was moved to Customizer. Theme functionality was improved. Translation was updated. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.3. Theme was transferred to new WordPress account.
 
-= 1.2 =
-We updated all functionality for wordpress 3.9. We fixed a bug for displaying custom header without header text in IE8.
+= V1.3 =
+We updated all functionality for WordPress 3.9.1. We fixed bugs in script.js. We fixed bugs in style.css. We added reddich.pot file.
 
-= 1.1 =
+= V1.2 =
+We updated all functionality for WordPress 3.9. We fixed a bug for displaying custom header without header text in IE8.
+
+= V1.1 =
 Replaced code for EASYFADER slider with our own code located in 'script.js' file. Replaced all 'is_home' conditional tags in theme files with 'is_front_page' conditional tags. Changed 'reddish_scripts_styles' function to enqueue scripts and styles only on the front end.
 
-= 1.0.9 =
+= V1.0.9 =
 Changed code for displaying 'breadcrumbs'.
 
-= 1.0.8 =
+= V1.0.8 =
 Change: Changed GPL license version number from v2 to v3 and specified proper links to this version in 'readme.txt' and 'style.css' files. Changed Author and Author URI in 'readme.txt' and 'style.css' files. Put EASYFADER code in a separate 'slider.js' file.
 
-= 1.0.7 =
+= V1.0.7 =
 Change: Changed code in a function displaying 'breadcrumbs'.
 
-= 1.0.6 =
+= V1.0.6 =
 Update: Added license information for some resources used in the theme in 'readme.txt' file.
 
-= 1.0.5 =
+= V1.0.5 =
 Bugfix: Changed format of data displayed in the footer.
 
-= 1.0.4 =
+= V1.0.4 =
 Bugfix: Replaced get_stylesheet_uri() function for get_stylesheet_directory_uri() to enqueue style.css file. Added changes to style.css to correctly display very long titles in posts content. Changed format of data displayed in the footer.
 
-= 1.0.3 =
+= V1.0.3 =
 Bugfix: Put copyright notice for Reddish theme in readme.txt and style.css files. Added a proper prefix to all global variables used in the theme. Added changes to style.css to correctly display very long titles of posts and pages.
 
-= 1.0.2 =
+= V1.0.2 =
 We fixed the bugs.
 
-= 1.0.1 =
+= V1.0.1 =
 We fixed the bugs.
