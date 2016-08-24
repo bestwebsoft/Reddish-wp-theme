@@ -4,8 +4,8 @@ Author URI: http://bestweblayout.com/
 Donate link: http://bestwebsoft.com/donate/
 Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 4.2
-Tested up to: 4.5.3
-Stable tag: 1.4
+Tested up to: 4.6
+Stable tag: 1.5
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Reddish WordPress Theme, Copyright 2016 BestWebLayout.com
@@ -115,6 +115,9 @@ Custom Header images should be 960px wide by 360px high otherwise they will be d
 
 == Changelog ==
 
+= V1.5 - 24.08.2016 =
+* Update : All functionality for WordPress 4.6 was updated.
+
 = V1.4 - 09.08.2016 =
 * Bugfix: Fixed mismatch coding standards.
 * Bugfix: Fixed theme markup and styles.
@@ -172,6 +175,9 @@ Fixed bugs.
 We fixed the bugs.
 
 == Upgrade Notice ==
+
+= V1.5 =
+* The compatibility with new WordPress version updated.
 
 = V1.4 =
 Fixed mismatch coding standards. Fixed theme markup and styles. Slider functionality and settings was fixed. We added option into slider settings for display only Posts and Pages which have a featured image. Slider settings was moved to Customizer. Theme functionality was improved. Translation was updated. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.3. Theme was transferred to new WordPress account.

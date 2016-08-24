@@ -20,7 +20,7 @@ if ( is_sticky() && is_front_page() && ! is_paged() ) : ?><!-- display featured 
 <?php endif; /* ( is_sticky() && is_front_page() && ! is_paged() ) */ ?>
 <div class="entry_header">
 	<?php if ( is_single() || is_page() ) : ?>
-		<h2 class="entry_title"><?php echo get_the_title(); ?></h2>
+		<h2 class="entry_title"><?php the_title(); ?></h2>
 	<?php else : ?><!-- if home page is displayed -->
 		<h2 class="entry_title">
 			<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'reddish' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>

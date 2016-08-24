@@ -4,7 +4,7 @@ Theme URI: http://bestweblayout.com/products/reddish/
 Author: BestWebLayout
 Author URI: http://bestweblayout.com/
 Description: Is your website designed for active and inquisitive people? Do you feel your unique content requires an original and creative design? Are you in search of a theme that would be a harmonious extension to your thoughts? If you can answer in the affirmative at least to one of these questions, we guarantee that Reddish will be an excellent theme for you. Stylish, elaborate and user-friendly, it will go with your content like bread with butter. Its eyecatching design and a whole range of customization options provide you with unlimited possibility to make your posts truly unforgettable. What is more, Reddish is perfectly compatible with each BestWebSoft plugin. Therefore, to make your website truly unique, we suggest you install Gallery plugin (http://wordpress.org/plugins/gallery-plugin/), as well as Quotes and Tips plugin (http://wordpress.org/plugins/quotes-and-tips/). This way, by installing one or both of these you get a killer combination - extended functionality and a guarantee that no compliance problems will ever occur. See how your website may look with this theme: http://wp-demo-theme.bestweblayout.com/reddish/
-Version: 1.4
+Version: 1.5
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
@@ -665,6 +665,7 @@ pre {
 	border-radius: 0; /* to override border-radius set for textfield*/
 	background: url(./images/images.png) 273px -44px no-repeat #fff;
 	font-family: "ptsans", Arial, sans-serif;
+	box-sizing: content-box;
 }
 
 .error404 .search_form {

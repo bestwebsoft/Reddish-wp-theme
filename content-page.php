@@ -6,7 +6,7 @@
 ?>
 <div id="single-page" <?php post_class(); ?>>
 	<div class="entry_title">
-		<h2><?php echo get_the_title(); ?></h2>
+		<h2><?php the_title(); ?></h2>
 	</div><!--.entry_title"-->
 	<div class="entry_content">
 		<?php the_content();
